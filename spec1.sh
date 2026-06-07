@@ -1,5 +1,5 @@
 #!/usr/bin/bash
-# save ogn-rf spectrom to a file, annotate with noise and gain setting
+# save ogn-rf spectrogram to a file, annotate with noise and gain setting
 cd /tmp
 name1=${1:-sdr1}
 rx1_port=${2:-127.0.0.1:8080}
